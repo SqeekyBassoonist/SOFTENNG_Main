@@ -55,7 +55,9 @@ After calling the microservice, a file called 'output.txt' will be created in th
 
 ## INPUT
 
-The microservice can be called through the command line. As it's a python file, you can call it through the command 'python \[path/to/main.py\] < args >. 
+The microservice can be called through the command line using this format:
+
+    - 'python \[path/to/main.py\] < args >. 
 
 Args will be one of three words, those being: 
 
