@@ -14,7 +14,7 @@ The pages are found in two different file structures.
         |
         --- Jou2Pg1.txt
 
-    Or
+Or
 
     Unsorted Pages
     |
