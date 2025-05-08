@@ -26,7 +26,7 @@ The tags will be formatted as //tag and will only be present in the first line o
 
 ## OUTPUT
 
-After calling the microservice, a file called 'output.txt' will be created in the microservice directory. The file will contain atmost two JSONs in the format. An example out file is in this file [output](output.txt)
+After calling the microservice, a file called 'output.txt' will be created in the microservice directory. The file will contain atmost two JSONs in the format. An example out file is in this file [output.txt](output.txt)
 
     {
         "journal_name": {
@@ -55,6 +55,14 @@ After calling the microservice, a file called 'output.txt' will be created in th
 
 ## INPUT
 
-The microservice can be called through the command line. As it's a python file, you can call it through the command 'python \[path/to/main.py\] <args>. Args will be one of three words, those being 'journals', 'ungrouped', and 'full'. Each of these changes the output to include only pages from journals or ungrouped pages resepctively. Full will include both journal and ungrouped pages in the output as two seperate JSONs.
+The microservice can be called through the command line. As it's a python file, you can call it through the command 'python \[path/to/main.py\] < args >. 
+
+Args will be one of three words, those being: 
+
+    - journals (only searches pages form journals)
+    - ungrouped (only searches ungrouped pages) 
+    - full (searches everything)
+
+Adding extra arguments, not providing enough, or using invalid arguments will cause the program to exit without output.
 
 An example call would be 'python main.py full' or 'python main.py journal'
