@@ -22,11 +22,11 @@ Or
     --- Page2.txt
     --- Page3.txt
 
-The tags will be formatted as //tag and will only be present in the first line of the page. The links will be formatted as \[\[link\]\] and can be anywhere in the page.
+The tags will be formatted as **//tag** and will only be present in the first line of the page. The links will be formatted as **\[\[link\]\]** and can be anywhere in the page.
 
 ## OUTPUT
 
-After calling the microservice, a file called 'output.txt' will be created in the microservice directory. The file will contain atmost two JSONs in the format. An example out file is in this file [output.txt](output.txt)
+After calling the microservice, a file called '**output.txt**' will be created in the microservice directory. The file will contain atmost two JSONs in the format. An example out file is in this file [output.txt](output.txt)
 
     {
         "journal_name": {
