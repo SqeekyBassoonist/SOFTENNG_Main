@@ -1,0 +1,43 @@
+{
+    "test_journal_one": {
+        "journal_1_page_1": {
+            "tags": [
+                "Journal1",
+                "Page1",
+                "asdfjhasdflikjhsadfgkljahs;dlfgkhsdfkl;ghdas"
+            ],
+            "links": [
+                "Journal 1 Link",
+                "Journal 1 Link 2"
+            ]
+        },
+        "journal_1_page_2": {
+            "tags": [
+                "Journal1",
+                "Page2"
+            ],
+            "links": [
+                "Journal 2 Link 1"
+            ]
+        }
+    },
+    "test_journal_two": {
+        "journal_2_page_1": {
+            "tags": [
+                "Journal2",
+                "Page1"
+            ],
+            "links": []
+        }
+    }
+}{
+    "ungrouped": {
+        "ungrouped_page_1": {
+            "tags": [
+                "ungrouped",
+                "page1"
+            ],
+            "links": []
+        }
+    }
+}
