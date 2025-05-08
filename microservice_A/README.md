@@ -26,7 +26,7 @@ The tags will be formatted as //tag and will only be present in the first line o
 
 ## OUTPUT
 
-After calling the microservice, a file called 'output.txt' will be created in the microservice directory. The file will contain atmost two JSONs in the format.
+After calling the microservice, a file called 'output.txt' will be created in the microservice directory. The file will contain atmost two JSONs in the format. An example out file is in this file [output](output.txt)
 
     {
         "journal_name": {
