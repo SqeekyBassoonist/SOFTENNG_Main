@@ -1,6 +1,6 @@
 # SOFTENNG_Main
 
-Contains the Main Project for SOFTENNG 1 - Microservices are in separate repos
+Contains the Main Project for SOFTENNG 1
 
 
 ## Purpose
